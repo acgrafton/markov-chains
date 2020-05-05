@@ -14,6 +14,7 @@ def open_and_read_file(file_path):
 
     return open(file_path).split()
 
+print(open_and_read_file("green-eggs.txt"))
 
 def make_chains(text_string):
     """Take input text as string; return dictionary of Markov chains.
